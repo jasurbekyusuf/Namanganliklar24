@@ -1,0 +1,21 @@
+@import './styles/Navbar';
+@import './styles/IconSection.scss';
+@import './styles/HomePage.scss';
+@import './styles/Banner.scss';
+@import './styles/Footer.scss';
+@import './styles/Politiks.scss';
+@import './styles/Contact.scss';
+@import './styles/NewsPage.scss';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: sans-serif;
+}
+
+.app-content{
+    width: 1300px;
+    margin: auto;  
+}

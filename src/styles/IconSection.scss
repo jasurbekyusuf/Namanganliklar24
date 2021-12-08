@@ -1,0 +1,65 @@
+.IconSection{
+    background-color: #F6F6F9;
+    margin-top: 4.5rem;
+    padding: 1.2rem 0 1rem 3rem;
+    .icon-sectin-container{            
+        display: flex;
+        .icon-section-icons{
+            width: 30%;
+            display: flex;
+            .icons{         
+                background-image: url('../image/iconcovid.png');           
+                width: 43px;
+                height: 45px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }  
+            .icons1{
+                background-image: url('../image/icon2.png');
+            }
+            h4{
+                font-size: 1.3rem;
+                margin: 0;
+                padding: 0;
+                margin-left: 1.5rem;
+            }
+            h1{
+                margin-left: 2rem;
+            }
+
+        }        
+        .icon-section-icons1{
+            width: 23%;
+            border-left: 1px solid red;
+            padding: 0 2rem;
+            h4{
+                color: red;
+                font-size: 1.2rem;
+            }
+        }
+        .icon-section-icons2{
+            width: 23%;
+            border-left: 1px solid rgb(201, 165, 6);
+            padding-left: 2rem;
+            .icons2{
+                color: #05B135;
+                font-size: 3.5rem;
+            }
+            h4{
+                color: #05B135;
+                font-size: 1.2rem;
+            }
+        }
+        .icon-section-icons3{
+            width: 25%;
+            border-left: 1px solid rgb(214, 204, 158);
+            padding-left: 2rem;
+        }
+        .icon-section-icons{
+            .icons3{
+                background-image: url('../image/icon-dead.svg');
+            }
+        }
+    }
+}

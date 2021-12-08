@@ -1,0 +1,71 @@
+.Footer{
+    p{
+        font-family: sans-serif;
+    }
+    background-color: #295093;
+    padding: 1rem 1rem;
+    .footer-container{
+        width: 1300px;
+        margin: 0 auto;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        .footer-button{
+            padding: 1rem 2rem;
+            background-color:#133C82;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+        p{
+            color: #fff;
+            margin-left: 10rem;
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+        .footer-buton1{
+            background-color: #fff;
+            border-radius: 5px;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            height: 2.5rem;
+            padding: .5rem;
+            margin: .5rem 0 0 0;
+            .add{
+               margin: 0; 
+               color: black;  
+               margin-left: .5rem; 
+            }
+            span{
+                background-image: url('../image/Vector7.png');
+                background-repeat: no-repeat;
+                background-position: left;
+                background-size: cover;
+                width: 1.3rem;
+                height: 1.3rem;  
+           }
+        }
+
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: .7rem 0 0 0;
+        border-top: 4px solid #133C82;
+        margin-top: .9rem;
+        .footer-text{
+            width: 30%;
+            p{
+                color: #fff;
+                
+            }
+            .footer-p{
+                padding-bottom: .6rem;
+            }
+        }
+    }
+}

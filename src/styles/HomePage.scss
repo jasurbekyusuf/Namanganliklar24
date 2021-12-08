@@ -1,0 +1,169 @@
+.news-one {
+    padding-top: 3rem;
+  .HomeNewsContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.4rem 2.5rem;
+    .NewsContentContainer {
+      width: 100%;
+
+      overflow: hidden;
+      .newscontent {
+        overflow: hidden;
+        img {
+          width: 100%;
+          transition: all 0.2s ease-in-out;
+          padding-bottom: 0.5rem;
+          &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+          }
+        }
+        .newscontentlink {
+          color: inherit;
+          font-family: inherit;
+          font-weight: 600;
+          text-decoration: none;
+          font-size: 1.3rem;
+          padding-bottom: 2rem;
+          transition: all 0.6s ease-in-out;
+          &:hover {
+            color: #037fff;
+          }
+        }
+        .newscon{
+            p{
+                color: rgb(95, 90, 90);
+                font-family: sans-serif;
+                font-size: .9rem;
+                padding-top: .5rem;
+            }
+        }
+      }
+    }
+  }
+}
+.home-alert{
+    background: rgba(239, 186, 84, 0.18);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 2.5rem 0;
+    .home-alert-left{
+        padding: 1.5rem 1.5rem 1rem 2rem;
+        display: flex;
+        .home-alert-left-icon{
+            font-size: 2.2rem;
+            color: #FE5C28;
+            cursor: pointer;
+        }
+        h3{
+            padding: .4rem 0 0 2.5rem;
+        }
+    }
+    .home-alert-right{
+        padding: 1.5rem 2rem 1rem 0 ;
+        button{
+            padding: .8rem 3.5rem;
+            color: #fff;
+            background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+            outline: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    }
+}
+.newscontainerall{
+    display: flex;
+    justify-content: space-between;
+  .AllNews{
+      width: 70%;
+      .allnewsbutton{
+        padding: .7rem 3rem;
+        color: #fff;
+        background-color: #295093;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-left: 19.5rem;
+      }
+    .AllNewscontainer{
+        padding-top: 1.2rem;
+        .AllNewsContent{
+            display: flex;            
+                 transition: all 0.2s ease-in-out;
+                  &:hover{
+                  transform: scale(.9);
+                  cursor: pointer;
+                }
+
+            .AllNewsContent-right{
+                padding:.5rem 0 0 1.3rem;
+                .allnewslink{                     
+                    margin-bottom: .8rem; 
+                    a{
+                       color: black;
+                       font-family: sans-serif;
+                       font-weight: 600;
+                       text-decoration: none;
+                       font-size: 1.1rem;
+                    }
+
+                }
+                .allnewslink1{
+                    padding-bottom: .8rem;
+                    font-family: sans-serif;
+                    color: rgb(148, 146, 146);
+                    font-size: 1rem;
+                }
+                .allnewscon{
+                    font-family: sans-serif;
+                    color: rgb(148, 146, 146);
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+   
+} 
+.AllNews-right{    
+  margin-top: .7rem;
+    width: 25%;
+    .allnewscontainer{
+      padding: 1.1rem 1rem 0 1rem;     
+      background-color:#F6F6F9;
+      border-radius: 5px;
+    }
+    .allnewscontainer1{
+      .line{
+        height: 4px;
+        background-color: #E4E4E4;
+        width: 100%;
+        margin-top:1rem;
+      }
+
+      p{
+        padding: .9rem 3rem .9rem 0 ;
+      }
+      span{
+        padding: .3rem 0;
+        color: #a09999;
+      }      
+      .lineup{
+        padding-bottom: 1rem;
+      }
+    }
+
+    .img{
+      width: 100%;
+      height: 447px;
+      background-image: url('../image/Rectangle.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 3rem;
+      } 
+    }
+  
+}

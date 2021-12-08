@@ -1,0 +1,75 @@
+.Banner{
+    display: flex;
+    background-color: #F6F6F9;
+    padding: 2.5rem 1rem 0 2rem;
+    margin: 3rem 0;
+    height: 15rem;
+    .banner-img{
+        background-image: url('../image/8d89790fc04af6ac0dfe97db84f28cb2\ 1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 15rem;   
+        position: relative;
+        span{
+            width: 72%;
+            height: 9.9rem;
+            background-color: #fff;
+            z-index: 1;
+            position: absolute;
+            top: 2.6rem;
+            left: 1.1rem;
+        }
+        p{
+            background-image: url('../image/photo5341757165586722845\ 1.png');         
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 46%;
+            height: 120px;     
+            z-index: 2; 
+            position:absolute;
+            top: 4.4rem;
+            left: 3rem;
+        }
+    }
+    .banner-text{
+        h4{
+            font-size: 1.7rem;
+            font-weight: 700;
+            padding: 1rem 0;
+            color: #295093;
+            font-family: sans-serif;
+        }
+        p{
+            font-family: sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+    .banner-brand{
+        padding: 1rem;
+        .appstore{           
+            background-image: url('../image/googleplay.png');
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: cover;
+            width: 15rem;
+            height: 1rem;  
+            padding: 2rem;
+            margin-bottom: .5rem;
+            margin-left: 2rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .appstore1{
+            background-image: url('../image/appstore.png');
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: cover;
+            width: 15rem;
+            height: 4rem; 
+            margin-left: 2rem; 
+            border-radius: 5px;
+        }
+    }
+}

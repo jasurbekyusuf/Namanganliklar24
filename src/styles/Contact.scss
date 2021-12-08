@@ -1,0 +1,188 @@
+.contact{
+    width: 1270px;
+    .contact-container{
+       display: flex;
+       justify-content: space-between; 
+    }
+
+    margin: 3rem 0;
+    .contact-left{
+        width: 50%;
+        form{
+            margin-top: 1rem;
+            input{
+                display: block;  
+                width: 100%;
+                padding: 1rem;  
+                outline: none;
+                border: 1px solid #285193;
+                margin-bottom: 1.2rem;
+                border-radius: 5px;
+                background-color: #F1F1F1;
+            }
+            textarea{
+                display: block;
+                width: 100%;
+                padding: 1rem;
+                height: 20rem;
+                border: 1px solid #285193;
+                margin-bottom: 1.2rem;
+                border-radius: 5px;
+                background-color: #F1F1F1;
+            }
+            .contact-button{
+                padding: .9rem 1rem;
+                background-color: #F1F1F1;
+                border-radius: 5px;
+                outline: none;
+                border: 1px solid #285193;
+                cursor: pointer;
+                margin-bottom: 1rem;
+            }
+            .button33{
+                padding: .9rem 2.4rem;
+            }
+            .input-cod{
+                width: 9rem;
+            }
+
+        }
+    }
+    .contact-right{
+        width: 38%;
+        margin-top: 1rem;
+        .contact-right-container{
+            border: 1px solid #BCC3CD;
+            border-radius: 5px;
+            padding: 2rem 1rem;
+            width: 32rem;
+            box-shadow:  rgba(83, 82, 82, 0.2) -10px 15px,;
+            .card{
+                display: flex;  
+                justify-content: space-between;
+                p{
+                    color: #888888;
+                    padding: .5rem 0;
+                }
+            }
+
+            h3{
+                text-align: right;
+                font-weight: 800;
+                color:#295091;
+                font-size: 1.6rem;
+            }
+            .contact-right-two{
+                width: 60%;
+                .contact-pp{
+                    margin-left: 6rem;
+                }
+                .contact-social{
+                    display: flex;
+                    margin-left: 11rem;
+                    div{
+                        background-size: cover;
+                        background-position: center;
+                        width: 1.7rem;
+                        height: 1.7rem; 
+                        margin-left: .5rem;  
+                    }
+                    .span1{
+                        background-image: url('../image/Vector10.png');
+                    }
+                    .span2{
+                        background-image: url('../image/Vector11.png');
+                    }
+                    .span3{
+                        background-image: url('../image/Vector12.png'); 
+                    }
+                }
+                .contact-button{
+                    cursor: pointer;
+                    position: relative;
+                    background-color:   #295091;
+                    width: 8.3rem;
+                    height: 2rem;
+                    margin-top: .3rem;
+                    border-radius: .2rem;
+                    margin-left: 9.6rem;
+                    span{
+                        background-image: url('../image/Vector8.png');
+                        background-repeat: no-repeat;
+                        background-position: left;
+                        background-size: cover;
+                        width: 1.3rem;
+                        height: 1.3rem;
+                        z-index: 22;
+                        position: absolute;
+                        top: .3rem;
+                        left: .6rem;
+                    }
+                    p{
+                        position: absolute;
+                        // top: .2rem;
+                        left: 2.3rem;
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+                .contact-appstore{
+                    cursor: pointer;
+                    width: 100%;
+                    height: 2rem;
+                    margin-top: .3rem;
+                    border-radius: .2rem;
+                    display: flex;
+                    justify-content: space-between;
+                    .dive{
+                        background: rgba(41, 80, 145, 0.19);
+                        border-radius: 4px;                    
+                        
+                        span{
+                        background-repeat: no-repeat;
+                        background-position: left;
+                        background-size: cover;
+                        width: 1.3rem;
+                        height: 1.3rem;
+                        z-index: 22;
+                        position: absolute;
+                        top: .35rem;
+                        left: .6rem;    
+                        }
+                        p{
+                            position: absolute;
+                            right: .6rem;
+                        }
+
+                    }
+                    .contact-appstore-left{
+                        position: relative;
+                        margin-left: 1rem;
+                        width: 45%;
+                        span{
+                          background-image: url('../image/Vector18.png');  
+                        }
+                        
+                    }
+                    .contact-appstore-right{
+                        width: 42%;
+                        position: relative;
+                        span{
+                          background-image: url('../image/Vector21.png');    
+                          background-repeat: no-repeat;
+                          background-position: left;
+                          background-size: cover;
+                          width: 1.3rem;
+                          height: 1.3rem;
+                          z-index: 22;
+                          position: absolute;
+                          top: .35rem;
+                          left: .6rem;   
+                        }
+                       
+                    }
+                }
+            }
+        }
+    }
+}

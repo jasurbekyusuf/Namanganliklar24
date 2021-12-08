@@ -1,0 +1,114 @@
+.Navbar{
+    background-color: #fff;
+    .navbar-container{
+        .navbar-title{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1.8rem;
+            .navbar-title-left{
+                display: flex;
+                .logo{
+                   color:#295091;  
+                   font-size: 2rem;   
+                   font-family: sans-serif;
+                   margin: 0; 
+                   padding: 0;
+                   margin-right: 4rem;
+                   font-weight: 900;
+                }
+                p{
+                   color: rgba(82, 75, 75, 0.938);
+                   margin: 0;
+                   margin-right: 2.5rem;
+                   margin-top: .8rem;
+                   font-size: 1.1rem;
+                }
+                span{
+                   color:#295091;
+                   font-weight: 700;
+                }
+            }
+            .navbar-title-right{
+                display: flex;
+                .search{
+                    position: relative;
+                    margin-top: 1rem;
+                    cursor: pointer;
+                }
+                .search-icon{
+                    color: #2c2d30;           
+                }
+                form{
+                    margin-top: .8rem;
+                    margin-right: 1rem;
+                    select{  
+                         outline: none; 
+                         border: none;
+                         margin-left: 2rem;
+                    }
+                }
+                .telegram{
+                    cursor: pointer;
+                    position: relative;
+                    background-color:   #1E96C8;
+                    width: 8.3rem;
+                    height: 2.5rem;
+                    margin-top: .3rem;
+                    border-radius: .2rem;
+                    span{
+                        background-image: url('../image/Vector8.png');
+                        background-repeat: no-repeat;
+                        background-position: left;
+                        background-size: cover;
+                        width: 1.2rem;
+                        height: 1.2rem;
+                        z-index: 22;
+                        position: absolute;
+                        top: .6rem;
+                        left: .6rem;
+                    }
+                    p{
+                        position: absolute;
+                        top: .6rem;
+                        left: 2.3rem;
+                        color: #fff;
+                        font-weight: 500;
+                    }
+
+                }
+            }
+        }
+        .navbar-text{
+            display: flex;
+            justify-content: space-around;
+            padding: 3.5rem 0 3rem 0;
+            font-weight: 700;
+            font-size: 1.2rem;
+            p{
+                cursor: pointer;
+
+            }
+            .navlink{
+                text-decoration: none;
+                color: rgb(10, 10, 10);               
+                 transition: all .3s ease-in-out;
+                &:hover{
+                    color: #4a77be;
+                }
+            }
+            .active{
+                color: #285193;
+                padding-bottom: .5rem;
+                border-bottom: 2px solid #4a77be;
+            }
+        }
+        .navbar-img{
+            width: 100%;
+            height: 6rem;
+            background-image: url('../image/nrgbanner.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    }
+}
